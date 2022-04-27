@@ -1,0 +1,1907 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1.1 - Snapshot Testing Snapshot test of TickerTable 1`] = `
+<div>
+  <div
+    class="ant-table-wrapper"
+  >
+    <div
+      class="ant-spin-nested-loading"
+    >
+      <div
+        class="ant-spin-container"
+      >
+        <div
+          class="ant-table ant-table-small ant-table-bordered"
+        >
+          <div
+            class="ant-table-container"
+          >
+            <div
+              class="ant-table-content"
+            >
+              <table
+                style="table-layout: auto;"
+              >
+                <colgroup />
+                <thead
+                  class="ant-table-thead"
+                >
+                  <tr>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Company
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Exchange
+                    </th>
+                    <th
+                      class="ant-table-cell ant-table-column-has-sorters"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-table-column-sorters"
+                      >
+                        <span
+                          class="ant-table-column-title"
+                        >
+                          Price
+                        </span>
+                        <span
+                          class="ant-table-column-sorter ant-table-column-sorter-full"
+                        >
+                          <span
+                            class="ant-table-column-sorter-inner"
+                          >
+                            <span
+                              aria-label="caret-up"
+                              class="anticon anticon-caret-up ant-table-column-sorter-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              aria-label="caret-down"
+                              class="anticon anticon-caret-down ant-table-column-sorter-down"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class="ant-table-cell ant-table-column-has-sorters"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-table-column-sorters"
+                      >
+                        <span
+                          class="ant-table-column-title"
+                        >
+                          Change
+                        </span>
+                        <span
+                          class="ant-table-column-sorter ant-table-column-sorter-full"
+                        >
+                          <span
+                            class="ant-table-column-sorter-inner"
+                          >
+                            <span
+                              aria-label="caret-up"
+                              class="anticon anticon-caret-up ant-table-column-sorter-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              aria-label="caret-down"
+                              class="anticon anticon-caret-down ant-table-column-sorter-down"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class="ant-table-cell ant-table-column-has-sorters"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-table-column-sorters"
+                      >
+                        <span
+                          class="ant-table-column-title"
+                        >
+                          Change percent
+                        </span>
+                        <span
+                          class="ant-table-column-sorter ant-table-column-sorter-full"
+                        >
+                          <span
+                            class="ant-table-column-sorter-inner"
+                          >
+                            <span
+                              aria-label="caret-up"
+                              class="anticon anticon-caret-up ant-table-column-sorter-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              aria-label="caret-down"
+                              class="anticon anticon-caret-down ant-table-column-sorter-down"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Dividend
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Yield
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Last trade time
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                    />
+                  </tr>
+                </thead>
+                <tbody
+                  class="ant-table-tbody"
+                >
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="AAPL"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      AAPL
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              279
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .29
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      64.52
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.84
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.56
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1.34
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="GOOGL"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      GOOGL
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              237
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .08
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      154.38
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.1
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.46
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1.18
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="MSFT"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      MSFT
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              261
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .46
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      161.45
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.41
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.18
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.98
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="AMZN"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      AMZN
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              260
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .34
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      128.71
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.6
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.07
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.42
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="FB"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      FB
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              266
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .77
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      171.92
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.75
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.52
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1.31
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="TSLA"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      TSLA
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              272
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .13
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      158.76
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.1
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.96
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot Testing Snapshot test of TickerTable 1`] = `
+<div>
+  <div
+    class="ant-table-wrapper"
+  >
+    <div
+      class="ant-spin-nested-loading"
+    >
+      <div
+        class="ant-spin-container"
+      >
+        <div
+          class="ant-table ant-table-small ant-table-bordered"
+        >
+          <div
+            class="ant-table-container"
+          >
+            <div
+              class="ant-table-content"
+            >
+              <table
+                style="table-layout: auto;"
+              >
+                <colgroup />
+                <thead
+                  class="ant-table-thead"
+                >
+                  <tr>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Company
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Exchange
+                    </th>
+                    <th
+                      class="ant-table-cell ant-table-column-has-sorters"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-table-column-sorters"
+                      >
+                        <span
+                          class="ant-table-column-title"
+                        >
+                          Price
+                        </span>
+                        <span
+                          class="ant-table-column-sorter ant-table-column-sorter-full"
+                        >
+                          <span
+                            class="ant-table-column-sorter-inner"
+                          >
+                            <span
+                              aria-label="caret-up"
+                              class="anticon anticon-caret-up ant-table-column-sorter-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              aria-label="caret-down"
+                              class="anticon anticon-caret-down ant-table-column-sorter-down"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class="ant-table-cell ant-table-column-has-sorters"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-table-column-sorters"
+                      >
+                        <span
+                          class="ant-table-column-title"
+                        >
+                          Change
+                        </span>
+                        <span
+                          class="ant-table-column-sorter ant-table-column-sorter-full"
+                        >
+                          <span
+                            class="ant-table-column-sorter-inner"
+                          >
+                            <span
+                              aria-label="caret-up"
+                              class="anticon anticon-caret-up ant-table-column-sorter-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              aria-label="caret-down"
+                              class="anticon anticon-caret-down ant-table-column-sorter-down"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class="ant-table-cell ant-table-column-has-sorters"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-table-column-sorters"
+                      >
+                        <span
+                          class="ant-table-column-title"
+                        >
+                          Change percent
+                        </span>
+                        <span
+                          class="ant-table-column-sorter ant-table-column-sorter-full"
+                        >
+                          <span
+                            class="ant-table-column-sorter-inner"
+                          >
+                            <span
+                              aria-label="caret-up"
+                              class="anticon anticon-caret-up ant-table-column-sorter-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              aria-label="caret-down"
+                              class="anticon anticon-caret-down ant-table-column-sorter-down"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="caret-down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Dividend
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Yield
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      Last trade time
+                    </th>
+                    <th
+                      class="ant-table-cell"
+                    />
+                  </tr>
+                </thead>
+                <tbody
+                  class="ant-table-tbody"
+                >
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="AAPL"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      AAPL
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              279
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .29
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      64.52
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.84
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.56
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1.34
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="GOOGL"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      GOOGL
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              237
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .08
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      154.38
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.1
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.46
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1.18
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="MSFT"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      MSFT
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              261
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .46
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      161.45
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.41
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.18
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.98
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="AMZN"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      AMZN
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              260
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .34
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      128.71
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.6
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.07
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.42
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="FB"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      FB
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              266
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .77
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      171.92
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.75
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.52
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1.31
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="TSLA"
+                  >
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      TSLA
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      NASDAQ
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      <div
+                        class="ant-statistic"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          Active
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="color: green;"
+                        >
+                          <span
+                            class="ant-statistic-content-prefix"
+                          >
+                            <span
+                              aria-label="arrow-up"
+                              class="anticon anticon-arrow-up"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="arrow-up"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M868 545.5L536.1 163a31.96 31.96 0 00-48.3 0L156 545.5a7.97 7.97 0 006 13.2h81c4.6 0 9-2 12.1-5.5L474 300.9V864c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V300.9l218.9 252.3c3 3.5 7.4 5.5 12.1 5.5h81c6.8 0 10.5-8 6-13.2z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              
+                              272
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .13
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      158.76
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.1
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      0.96
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      1
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                      style="text-align: left;"
+                    >
+                      30.04.2021, 14:53
+                    </td>
+                    <td
+                      class="ant-table-cell"
+                    >
+                      <button
+                        class="ant-btn ant-btn-default"
+                        type="button"
+                      >
+                        <span>
+                          remove
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
