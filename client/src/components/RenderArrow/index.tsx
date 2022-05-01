@@ -1,4 +1,4 @@
-import React, { FC, useMemo } from "react";
+import React, { FC } from "react";
 import { ArrowDownOutlined, ArrowUpOutlined } from "@ant-design/icons";
 import { Statistic } from "antd";
 import { usePreviousState } from "../../hooks/usePreviousState";
@@ -12,13 +12,10 @@ const getPriceColor = (hasGrown: boolean | undefined) =>
 const getArrowIcon = (hasGrown: boolean | undefined) =>
   hasGrown ? <ArrowUpOutlined /> : <ArrowDownOutlined />;
 
-export const RenderArrow: FC<RenderArrowProp> = ({ price }) => {
+const RenderArrow: FC<RenderArrowProp> = ({ price }) => {
   const prev = usePreviousState(price) || 0;
-  const hasGrown = useMemo(() => {
-    if (price !== prev) {
-      return price - prev >= 0;
-    }
-  }, [prev, price]);
+
+  const hasGrown = price - prev >= 0;
 
   return (
     <Statistic
@@ -29,3 +26,5 @@ export const RenderArrow: FC<RenderArrowProp> = ({ price }) => {
     />
   );
 };
+
+export default React.memo(RenderArrow);

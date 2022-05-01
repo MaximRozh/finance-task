@@ -3,7 +3,7 @@ import { FC } from "react";
 import { Button, Table } from "antd";
 import "antd/dist/antd.css";
 import { formatedDate } from "../../utils/dateFormate";
-import { RenderArrow } from "../RenderArrow";
+import RenderArrow from "../RenderArrow";
 import { TickerModel } from "../../models/TickerModel";
 
 declare type AlignType = "left" | "center" | "right";
@@ -34,8 +34,6 @@ const TickerTable: FC<TickerTableProp> = ({ valTick, handleRemove }) => {
       sorter: (a: TickerModel, b: TickerModel) => a.price - b.price,
       align: "left" as AlignType,
       render: (price: string) => <RenderArrow price={+price || 0} />,
-      shouldCellUpdate: (current: TickerModel, prev: TickerModel) =>
-        current.price !== prev.price,
     },
     {
       title: "Change",
@@ -57,12 +55,14 @@ const TickerTable: FC<TickerTableProp> = ({ valTick, handleRemove }) => {
       dataIndex: "dividend",
       key: "dividends",
       align: "left" as AlignType,
+      sorter: (a: TickerModel, b: TickerModel) => a.dividend - b.dividend,
     },
     {
       title: "Yield",
       dataIndex: "yield",
       key: "yield",
       align: "left" as AlignType,
+      sorter: (a: TickerModel, b: TickerModel) => a.yield - b.yield,
     },
     {
       title: "Last trade time",
@@ -70,6 +70,9 @@ const TickerTable: FC<TickerTableProp> = ({ valTick, handleRemove }) => {
       key: "last_trade_time",
       align: "left" as AlignType,
       render: (date: string) => formatedDate(date),
+      sorter: (a: TickerModel, b: TickerModel) =>
+        new Date(a.last_trade_time).getTime() -
+        new Date(b.last_trade_time).getTime(),
     },
     {
       key: "direction",
